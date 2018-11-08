@@ -153,6 +153,10 @@ body {
 	background: none !important;
 }
 
+.errorlist li {
+	color: red;
+	font-weight: bold;
+}
 
 
 

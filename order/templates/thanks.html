@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+	Thanks - Finer Things
+{% endblock %}
+{% block content %}
+	<div>
+		<div class="text-center">
+			<br>
+			<br>
+			<h1 class="text-center my_title">
+				Thanks for placing your order
+			</h1>
+			<br>
+			<br>
+			<p>Your order number is: <b>{{ customer_order.id }}</b></p>
+			<br>
+			<p>
+				We have recieved you order and will begin processing right away. For you records an email confirmation has been sent to you. It contains the details of the items you purchased.
+			</p>
+		</div>
+	</div>
+{% endblock %}

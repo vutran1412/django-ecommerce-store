@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'cart',
     'stripe',
     'order',
+    'crispy_forms',
 
 ]
 
@@ -114,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'US/Central'
 
 USE_I18N = True
 
@@ -137,3 +138,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')
 
 STRIPE_PUBLISHABLE_KEY = 'pk_test_HNWXWDQCL3DnxZ3Jf0fL7kNl'
 STRIPE_SECRET_KEY = 'sk_test_Lx0rC7CEC6F8eNE1eULkAjzW'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
